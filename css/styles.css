@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background: #dedede;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  /* font-family: 'Bungee Inline', cursive; */
+  font-family: 'Bungee Outline', cursive;
+  color: #00b894;
+  font-size: 40px;
+  margin: 0;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 70vh;
+  max-width: 70vh;
+  border: 5px solid black;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  background: #22a6b3;
+}
+
+.celeste.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.rojo {
+  background: #bd1415;
+}
+
+.rojo.light {
+  background: #f14647;
+}
+
+.verde {
+  background: #12612c;
+}
+
+.verde.light {
+  background: #129a3f;
+}
+
+.btn-start {
+  width: 400px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 200px);
+  border-radius: 15px;
+  }
+
+.btn-start:hover {
+  background: #b2bec3;
+}
+
+.hide {
+  display: none;
+}
+
+.shadow {
+  text-shadow: 1px 1px 15px #55efc4;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
