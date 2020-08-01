@@ -18,7 +18,7 @@ You can visit the live demo [here](daneliasanchz.github.io/simon-dice-game/).
 
 ## 📜 License
 
-Simon Dice game is licensed under the [MIT License](https://github.com/DaneliaSanchz/simon-dice-game/blob/master/LICENSE)
+Simon Dice game is licensed under the [MIT License](https://github.com/DaneliaSanchz/simon-dice-game/blob/master/LICENSE).
 
 ## 🤝 How to contribute
 
